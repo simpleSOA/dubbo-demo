@@ -1,7 +1,9 @@
 package com.fotor.service;
 
 
+import com.fotor.model.User;
+
 public interface UserService {
 
-    String findUserByName(String name);
+    User findUserByName(String name);
 }
