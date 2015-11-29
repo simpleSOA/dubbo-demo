@@ -34,7 +34,7 @@
         <property name="mapperLocations" value="classpath:mapper/*Mapper.xml" />
         <property name="typeAliasesPackage" value="com.hengtu.server.modal" />
     </bean>
-    <bean id="resourceBaseDao" class="com.fotor.dao.BaseDao" >
+    <bean id="baseDao" class="com.fotor.dao.BaseDao" >
         <property name="sqlSessionFactory" ref="sqlSessionFactory" />
     </bean>
 
