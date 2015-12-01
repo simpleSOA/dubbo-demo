@@ -15,7 +15,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User findUserByName(String name) {
-        baseDao.get("userMapper.findUserByName",name);
-        return null;
+        return baseDao.get("userMapper.findUserByName",name);
     }
 }
